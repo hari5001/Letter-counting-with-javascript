@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/yamaha/css/test.css">
+</head>
+<body>
+    <div class="box">
+        <div class="tit"><h2 class="head">Type a sentence</h2></div>
+        <div class="text">  <textarea name="para" id="pa" cols="30" rows="10" placeholder="Type here.tit.."></textarea> </div> 
+        <div class="btn">
+        <button class="btn1" onclick="my()" ><b>Calculate</b></button> </div>
+        <div id="result"></div>
+    </div>
+    <script>
+        function my(){
+            let var1=(document.getElementById("pa").value).length;
+            let var2 =document.getElementById("result"); 
+            result.innerHTML=var1+" Letters";
+            console.log(var1);
+        }
+    </script>
+</body>
+</html>
